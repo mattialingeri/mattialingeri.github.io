@@ -1,4 +1,4 @@
-% BeanKind – Communication Project Pitch
+% BeanKind – Pitch
 % Mattia Lingeri
 % Web Communication Exam
 
@@ -126,3 +126,4 @@ BeanKind shows how:
 can work together to create a meaningful digital experience.
 
 **Thank you.**
+
