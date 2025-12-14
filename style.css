@@ -148,13 +148,13 @@ nav a::after{
     text-align: center;
     padding: 3em 1em;
     background-color: #f7efe5;
-    border-radius: 10px; /* optional, soft corners for glow */
+    border-radius: 10px; 
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .impact:hover {
-    box-shadow: 0 0 30px 10px rgba(255, 200, 50, 0.6); /* glowing effect */
-    transform: scale(1.02); /* slight pop */
+    box-shadow: 0 0 30px 10px rgba(255, 200, 50, 0.6); 
+    transform: scale(1.02); 
 }
 
 .stats {
@@ -173,7 +173,7 @@ nav a::after{
 }
 
 .stat span:hover {
-    text-shadow: 0 0 10px #ffc832, 0 0 20px #ffb600; /* glowing numbers on hover */
+    text-shadow: 0 0 10px #ffc832, 0 0 20px #ffb600; 
 }
 
 
@@ -433,7 +433,7 @@ footer a:hover{
 
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 1.8rem; /* smaller on mobile */
+    font-size: 1.8rem; 
   }
 
   .hero p {
@@ -527,7 +527,7 @@ footer a:hover{
     }
 }
 
-/* ===== DESKTOP LAYOUT WITH SIDEBAR ===== */
+
 
 .layout {
     max-width: 1400px;
@@ -538,12 +538,12 @@ footer a:hover{
     gap: 3rem;
 }
 
-/* main column */
+
 .content {
     min-width: 0;
 }
 
-/* sidebar */
+
 .sidebar {
     align-self: start;
     position: scroll;
@@ -599,7 +599,7 @@ footer a:hover{
     }
 }
 
-/* ===== FORCE ABOUT + SIDEBAR SIDE BY SIDE ===== */
+
 
 .about-layout {
     display: grid !important;
@@ -615,7 +615,7 @@ footer a:hover{
     min-width: 0;
 }
 
-/* sidebar positioning */
+
 .about .sidebar {
     display: block;
     align-self: start;
@@ -623,7 +623,7 @@ footer a:hover{
     top: 120px;
 }
 
-/* MOBILE ONLY */
+
 @media (max-width: 1024px) {
     .about-layout {
         grid-template-columns: 1fr !important;
@@ -633,5 +633,6 @@ footer a:hover{
         display: none;
     }
 }
+
 
 
