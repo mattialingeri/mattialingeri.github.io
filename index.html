@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>BeanKind - Coffee with a Purpose</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <div id="hamburger" onclick="toggleNav()">☰</div>
+
+
+    <nav id="sideNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about">About us</a>
+        <a href="#impact">Impact</a>
+        <a href="#menu">Menu</a>
+        <a href="#support">Support</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="BeanKind logo">
+            <span class="brand-name">BeanKind</span>
+        </div>
+    </header>   
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Coffee with a purpose</h1>
+            <p>Every cup you drink helps someone build a new beginning</p>
+            <div class="cta-buttons">
+                <a href="#support" class="btn primary">Support Our Mission</a>
+                <a href="#menu" class="btn secondary">View our menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+    <div class="about-layout">
+
+        <!-- MAIN ABOUT CONTENT -->
+        <div class="about-content">
+            <div class="container">
+                <div class="text">
+                    <h2>Who We Are</h2>
+                    <p>
+                        At BeanKind we believe in the power of small gestures.
+                        We’re a social café in the heart of Milan that offers job
+                        training and employment to people from vulnerable communities.
+                        Every cup served contributes to real opportunities for those
+                        who need them most.
+                    </p>
+                </div>
+
+                <div class="image">
+                    <img src="images/sfondo 1.avif" alt="Staff at BeanKind">
+                </div>
+            </div>
+        </div>
+
+        <!-- SIDEBAR (ONLY FOR ABOUT) -->
+        <aside class="sidebar">
+            <div class="sidebar-box">
+                <h3>Why BeanKind</h3>
+
+                <ul class="sidebar-list">
+                    <li>☕ Ethical coffee sourcing</li>
+                    <li>🌱 100% sustainable farms</li>
+                    <li>🤝 Fair-trade partners</li>
+                    <li>♻️ Plastic-free packaging</li>
+                </ul>
+
+                <div class="sidebar-highlight">
+                    <strong>Every cup counts.</strong>
+                    <p>We reinvest in people, communities and the planet.</p>
+                </div>
+            </div>
+        </aside>
+
+    </div>
+</section>
+
+
+    <section id="impact" class="impact">
+        <h2> Our Impact in numbers</h2>
+        <div class="stats">
+            <div class="stat"><span>12,000+</span><p>Cups served this year</p></div>
+            <div class="stat"><span>8</span><p>New jobs created</p></div>
+            <div class="stat"><span>100%</span><p>Fair-trade coffee beans</p></div>
+            <div class="stat"><span>50+</span><p>Community partners</p></div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Coffee That Tastes Good - and Does Good</h2>
+        <div class="menu-items">
+            <div class="item">
+                <img src="images/latte.avif" alt="Latte">
+                <h3>Latte</h3>
+                <p>A creamy classic, one of our best-seller</p>
+            </div>
+            <div class="item">
+                <img src="images/espresso.avif" alt="Espresso">
+                <h3>Restart Espresso</h3>
+                <p>Bold flavour, Italy's favourite</p>
+            </div>
+            <div class="item">
+                <img src="images/crossiant 2.jpg" alt="Croissant">
+                <h3>Solidarity Croissant</h3>
+                <p>Baked by our own employees</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="support" class="support">
+        <h2>Be Part of the Change</h2>
+        <div class="support-cards">
+            <div class="card">
+                <h3>Visit Us</h3>
+                <p>Enjoy your coffee in our inclusive space, or take it with you in your daily routine</p>
+            </div>
+            <div class="card">
+                <h3>Donate</h3>
+                <p>Support training and job opportunities</p>
+            </div>
+            <div class="card">
+                <h3>Collaborate</h3>
+                <p>Partner with us for events or projects</p>
+            </div>
+        </div>
+        <a href="#contact" class="btn primary"> Support Us Today</a>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>Community Voices</h2>
+        <div class="testimonial-container">
+            <div class="testimonial active">
+                <p>"BeanKind gave me my first job opportunity. The team feels like family"</p>
+                <h4>-Amina, Barista Trainee</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Amazing coffee and an even better vibe. My favourite cafè in Milan"</p>
+                <h4>-Luca, Regular Customer</h4>
+            </div>
+            <div class="testimonial">
+                <p>"A beautiful initiative that truly makes a difference"</p>
+                <h4>Sofia, Volunteer</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p><strong>Address:</strong><a href="https://maps.app.goo.gl/4zG6kTpdvfWbPUJd9"> Via Conservatorio 34, Milano</a> </p>
+        <p><strong>Email:</strong> hello@beankind.com</p>
+        <p>Follow Us:
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">LinkedIn</a>
+        </p>   
+        <div class="footer-map">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.1460119058643!2d9.202328689940488!3d45.46686253196241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6bca8d6473d%3A0x7613c8d81f1c56fa!2sVia%20Conservatorio%2C%2034%2C%2020122%20Milano%20MI!5e0!3m2!1sit!2sit!4v1764844581693!5m2!1sit!2sit"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+
+    <div id="cookie-banner" style="display: none;" class="cookie-banner">
+        <p>This website uses cookies to ensure you get the best experience.</p>
+        <button id="accept-cookies">Accept</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        function toggleNav() {
+            const nav = document.getElementById("sideNav");
+            nav.style.width = nav.style.width === "250px" ? "0" : "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("sideNav").style.width = "0";
+        }
+    </script>
+
+</body>
+</html>
+
